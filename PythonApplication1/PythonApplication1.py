@@ -1,4 +1,4 @@
-#TIME TO LEARN SOME PYTHON
+# TIME TO LEARN SOME PYTHON
 
 # makes a comment (shotcut to comment selection -> cntl + E + C, undo cntrl + E + U)
 # python is case-sensitive
@@ -63,5 +63,23 @@ string7 = "7"
 sum_7 = int7 + int(string7)
 print(sum_7)
 
+float_1 = 0.25
+float_2 = 40.0
+
+product1 = float_1 * float_2
+
+big_string = "The product was " + str(product1)
+print(big_string)
 
 
+skill_completed = "Python Syntax"
+
+exercises_completed = 13
+#The amount of points for each exercise may change, because points don't exist yet
+points_per_exercise = 5
+
+point_total = 100
+
+point_total += (exercises_completed * points_per_exercise)
+
+print("I got " + str(point_total) + " points!")
